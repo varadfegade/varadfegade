@@ -16,10 +16,10 @@
 ## 💼 About Me
 
 ```
-🎓 2nd Year Student @ Pune College of Engineering (PCOE)
+🎓 2nd Year Student @  (PCCOE)
 💻 Passionate about Web Development, DSA, and Problem Solving
 🌟 Building elegant solutions with clean code
-📍 Haryana, India
+📍 Pune, India
 📧 varadfegade@gmail.com
 ```
 
