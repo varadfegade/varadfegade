@@ -1,23 +1,26 @@
 name: Generate Snake
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
 
 jobs:
   snake:
     runs-on: ubuntu-latest
+
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: varadfegade
-          outputs: |
-            dist/github-contribution-grid-snake.svg
+          outputs: dist/github-contribution-grid-snake.svg
 
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
