@@ -17,7 +17,7 @@
 <div align="center">
 <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="120"/>
 
-<p class="neon-green"><b>🎓 2nd Year Computer Engineering @ PCOE</b></p>
+<p class="neon-green"><b>🎓 2nd Year Computer Engineering @ PCCOER</b></p>
 <p class="neon-pink"><b>💻 Full Stack Developer & DSA Enthusiast</b></p>
 <p class="neon-gold"><b>🚀 Building Scalable Real-World Systems</b></p>
 <p class="neon-green"><b>🧠 Clean Code | Performance | Logic First</b></p>
@@ -41,7 +41,7 @@
 
 <h3 class="neon-gold">⚙️ Tools & Platforms</h3>
 <div align="center">
-<img src="https://skillicons.dev/icons?i=git,github,firebase,vscode&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=git,github,firebase,vscode,obsstudio&theme=dark"/>
 </div>
 
 
