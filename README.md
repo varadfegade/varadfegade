@@ -1,35 +1,5 @@
 <!-- ===================== NEON GLOBAL STYLE ===================== -->
-<style>
-.neon-box {
-  border: 2px solid transparent;
-  border-radius: 16px;
-  padding: 22px;
-  margin: 28px auto;
-  width: 92%;
-  background:
-    linear-gradient(#0d1117, #0d1117) padding-box,
-    linear-gradient(90deg, #00f5ff, #ff00ff, #39ff14, #00f5ff) border-box;
-  animation: neonBorder 4s linear infinite;
-}
 
-@keyframes neonBorder {
-  0%   { box-shadow: 0 0 8px #00f5ff; }
-  50%  { box-shadow: 0 0 18px #ff00ff; }
-  100% { box-shadow: 0 0 8px #00f5ff; }
-}
-
-.neon-title {
-  color: #00f5ff;
-  text-align: center;
-  font-size: 28px;
-  text-shadow: 0 0 12px #00f5ff;
-}
-
-.neon-green { color: #39ff14; }
-.neon-pink  { color: #ff00ff; }
-.neon-gold  { color: #ffd700; }
-.neon-red   { color: #ff3131; }
-</style>
 
 <!-- ===================== HERO ===================== -->
 <div align="center">
