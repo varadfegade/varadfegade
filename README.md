@@ -44,10 +44,7 @@
 <img src="https://skillicons.dev/icons?i=git,github,firebase,vscode&theme=dark"/>
 </div>
 
-<h3 class="neon-red">🤖 ML / Computer Vision</h3>
-<div align="center">
-<img src="https://skillicons.dev/icons?i=tensorflow,opencv&theme=dark"/>
-</div>
+
 </div>
 
 <!-- ===================== PROJECTS ===================== -->
