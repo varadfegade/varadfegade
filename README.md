@@ -1,3 +1,36 @@
+<!-- ===================== NEON GLOBAL STYLE ===================== -->
+<style>
+.neon-box {
+  border: 2px solid transparent;
+  border-radius: 16px;
+  padding: 22px;
+  margin: 25px auto;
+  width: 90%;
+  background: linear-gradient(#0d1117, #0d1117) padding-box,
+              linear-gradient(90deg, #00f5ff, #ff00ff, #39ff14, #00f5ff) border-box;
+  animation: neonBorder 4s linear infinite;
+}
+
+@keyframes neonBorder {
+  0% { filter: drop-shadow(0 0 5px #00f5ff); }
+  50% { filter: drop-shadow(0 0 12px #ff00ff); }
+  100% { filter: drop-shadow(0 0 5px #00f5ff); }
+}
+
+.neon-title {
+  color: #00f5ff;
+  text-align: center;
+  font-size: 28px;
+  text-shadow: 0 0 10px #00f5ff;
+}
+
+.neon-text-green { color: #39ff14; }
+.neon-text-pink { color: #ff00ff; }
+.neon-text-gold { color: #ffd700; }
+.neon-text-red { color: #ff3131; }
+</style>
+
+<!-- ===================== HERO ===================== -->
 <div align="center">
 
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="210"/>
@@ -6,78 +39,66 @@
 
 </div>
 
----
+<!-- ===================== ABOUT ===================== -->
+<div class="neon-box">
+
+<h2 class="neon-title">🧠 ABOUT ME</h2>
 
 <div align="center">
-
-<a href="https://github.com/varadfegade">
-<img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00F5FF"/>
-</a>
-
-<a href="https://www.linkedin.com/in/varad-fegade-683455311/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=00F5FF"/>
-</a>
-
-<a href="mailto:varadfegade@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-1A1A1A?style=for-the-badge&logo=gmail&logoColor=FF3131"/>
-</a>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00F5FF&height=3"/>
-
-## 🧠 ABOUT ME
-
-<div align="center">
-
 <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="120"/>
 
-<p style="color:#00F5FF;"><b>🎓 2nd Year Computer Engineering @ PCOE</b></p>
-<p style="color:#39FF14;"><b>💻 Full Stack Developer & DSA Enthusiast</b></p>
-<p style="color:#FF00FF;"><b>🚀 Building Scalable & Real-World Systems</b></p>
-<p style="color:#FFD700;"><b>🧠 Clean Code | Performance | Logic First</b></p>
-<p style="color:#FF3131;"><b>🎯 Goal: Crack Top Tech & Become Elite Engineer</b></p>
+<p class="neon-text-green"><b>🎓 2nd Year Computer Engineering @ PCOE</b></p>
+<p class="neon-text-pink"><b>💻 Full Stack Developer & DSA Enthusiast</b></p>
+<p class="neon-text-gold"><b>🚀 Building Scalable Real-World Systems</b></p>
+<p class="neon-text-green"><b>🧠 Clean Code | Performance | Logic</b></p>
+<p class="neon-text-red"><b>🎯 Goal: Crack Top Tech & Become Elite Engineer</b></p>
+</div>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=FF00FF&height=3"/>
+<!-- ===================== TECH STACK ===================== -->
+<div class="neon-box">
 
-## 🛠️ TECHNICAL STACK
+<h2 class="neon-title">🛠️ TECHNICAL STACK</h2>
 
-### 🌐 WEB DEVELOPMENT
+<h3 class="neon-text-pink">🌐 Web Development</h3>
 <div align="center">
 <img src="https://skillicons.dev/icons?i=html,css,javascript,react,nodejs,express,mongodb&theme=dark"/>
 </div>
 
-### 💻 PROGRAMMING LANGUAGES
+<h3 class="neon-text-green">💻 Programming Languages</h3>
 <div align="center">
 <img src="https://skillicons.dev/icons?i=c,cpp,java,python&theme=dark"/>
 </div>
 
-### ⚙️ TOOLS & PLATFORMS
+<h3 class="neon-text-gold">⚙️ Tools & Platforms</h3>
 <div align="center">
 <img src="https://skillicons.dev/icons?i=git,github,firebase,vscode&theme=dark"/>
 </div>
 
-### 🤖 ML / COMPUTER VISION
+<h3 class="neon-text-red">🤖 ML / Computer Vision</h3>
 <div align="center">
 <img src="https://skillicons.dev/icons?i=tensorflow,opencv&theme=dark"/>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=39FF14&height=3"/>
+</div>
 
-## 🚀 PROJECTS
+<!-- ===================== PROJECTS ===================== -->
+<div class="neon-box">
+
+<h2 class="neon-title">🚀 PROJECTS</h2>
 
 <table align="center">
 <tr>
 
-<td width="50%" style="border:1px solid #00F5FF;border-radius:16px;padding:20px;">
+<td width="50%">
+<div class="neon-box">
 <div align="center">
 
-<img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="230"/>
+<img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="220"/>
 
-<h3 style="color:#00F5FF;">🤟 SignLingo</h3>
-<p style="color:#39FF14;">
+<h3 class="neon-text-green">🤟 SignLingo</h3>
+<p class="neon-text-pink">
 Real-time Sign Language → Text Conversion using Computer Vision
 </p>
 
@@ -90,16 +111,18 @@ Real-time Sign Language → Text Conversion using Computer Vision
 <a href="https://github.com/varadfegade">📂 Code</a>
 
 </div>
+</div>
 </td>
 
-<td width="50%" style="border:1px solid #FF00FF;border-radius:16px;padding:20px;">
+<td width="50%">
+<div class="neon-box">
 <div align="center">
 
-<img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" width="230"/>
+<img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" width="220"/>
 
-<h3 style="color:#FF00FF;">🅿️ Smart Parking Management</h3>
-<p style="color:#FFD700;">
-Efficient Parking Slot Management & Vehicle Tracking System
+<h3 class="neon-text-gold">🅿️ Smart Parking Management</h3>
+<p class="neon-text-green">
+Efficient Parking Slot Management & Vehicle Tracking
 </p>
 
 <img src="https://img.shields.io/badge/Node.js-39FF14?style=flat-square"/>
@@ -111,41 +134,34 @@ Efficient Parking Slot Management & Vehicle Tracking System
 <a href="https://github.com/varadfegade">📂 Code</a>
 
 </div>
+</div>
 </td>
 
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=FFD700&height=3"/>
+</div>
 
-## 📊 GITHUB ANALYTICS
+<!-- ===================== STATS ===================== -->
+<div class="neon-box">
+
+<h2 class="neon-title">📊 GITHUB ANALYTICS</h2>
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=varadfegade&show_icons=true&theme=tokyonight&hide_border=true" width="48%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=varadfegade&theme=tokyonight&hide_border=true" width="48%"/>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=FF3131&height=3"/>
-
-## 🎯 CURRENT FOCUS
-
-<div align="center">
-
-📘 Advanced DSA & Competitive Programming  
-🌐 Full Stack Engineering  
-🤖 ML & Computer Vision  
-☁️ Cloud & Firebase  
-
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00F5FF&height=3"/>
-
+<!-- ===================== FOOTER ===================== -->
+<div class="neon-box">
 <div align="center">
 
 <img src="https://media.giphy.com/media/L1R1cvQ4mkhlQQtAFE/giphy.gif" width="220"/>
 
-⭐ **Star repositories if you like my work**  
-⚡ *Crafted with Neon Energy by* **Varad Fegade**
+⭐ <b class="neon-text-green">Star repositories if you like my work</b><br/>
+⚡ <b class="neon-text-pink">Crafted with Neon Energy by Varad Fegade</b>
 
 </div>
-
+</div>
